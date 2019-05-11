@@ -1,0 +1,26 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 3;
+    width: 100%;
+}
+
+.btn-input,
+.btn-input:hover {
+    color: #fff;
+    font-size: 1.9rem;
+    margin: 4vh 0;
+    border: 1px solid #7f0000;
+    min-width: 50vw;
+    padding: 10px 14px;
+    line-height: 1.6;
+    background-color: #b71c1c;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+    outline: none;
+}
+
+.btn-input:active {
+    background-color: rgba(255,255,255, 0.1);
+}

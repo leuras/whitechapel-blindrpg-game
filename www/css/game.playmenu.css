@@ -1,0 +1,33 @@
+.playmenu-container {
+    width: 100%;
+}
+
+.playmenu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 68px;
+    background-color: #2d3035;
+    box-shadow: 0 -2px 4px rgba(0,0,0,.5);
+}
+
+.btn-playmenu {
+    background-color: rgba(255,255,255, 0);
+    margin: 0 24px;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.btn-playmenu[disabled] .playmenu-icon {
+    color: #424242;
+}
+
+.playmenu-icon {
+    color: #fafafa;
+    font-size: 36px;
+    height: 36px;
+    width: 36px;
+    margin: 0;
+}

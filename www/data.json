@@ -1,0 +1,226 @@
+{
+    "name": "Introdução",
+    "narratives": [
+        {
+            "src": "assets/sounds/general/silence.mp3",
+            "subtitle": "",
+            "async": false,
+            "delay": 7000
+        },
+        {
+            "src": "assets/sounds/intro/audio01.mp3",
+            "subtitle": "Londres, 1888: A revolução industrial impulsionou os motores do capitalismo na Inglaterra vitoriana do século XIX.",
+            "async": false,
+            "delay": 900
+        },
+        {
+            "src": "assets/sounds/intro/audio02.mp3",
+            "subtitle": "A burguesia se fortaleceu.",
+            "async": false,
+            "delay": 900
+        },
+        {
+            "src": "assets/sounds/intro/audio03.mp3",
+            "subtitle": "A Inglaterra passa a ter a mais importante zona de livre comércio da Europa.",
+            "async": false,
+            "delay": 900
+        },
+        {
+            "src": "assets/sounds/intro/audio04.mp3",
+            "subtitle": "A profunda transformação no modo de produção da indústria, empregando o uso do aço como matéria-prima e de máquinas movidas a vapor, fizeram com que os artesãos perdessem o protagonismo e passassem a trabalhar para donos de fábricas.",
+            "async": false,
+            "delay": 0
+        },
+        {
+            "src": "assets/sounds/intro/audio05.mp3",
+            "subtitle": "A produção em larga escala, criou um aumento na demanda por mão de obra não especializada, que culminou em um forte movimento de êxodo rural.",
+            "async": false,
+            "delay": 700
+        },
+        {
+            "src": "assets/sounds/intro/audio06.mp3",
+            "subtitle": "Um movimento que deu origem a classe operária: trabalhadores em péssimas condições de trabalho,  ganhando baixos salários e submetidos a uma longa jornada de trabalho.",
+            "async": false,
+            "delay": 700
+        },
+        {
+            "src": "assets/sounds/intro/audio07.mp3",
+            "subtitle": "As cidades se tornaram grandes centros urbanos extremamente populosos.",
+            "async": false,
+            "delay": 700
+        },
+        {
+            "src": "assets/sounds/intro/audio08.mp3",
+            "subtitle": "A periferia de Londres era um lugar pobre, escuro e imundo. A população era, em sua maioria, bêbados, prostitutas, imigrantes e mendigos.",
+            "async": false,
+            "delay": 1000
+        },
+        {
+            "src": "assets/sounds/intro/audio09.mp3",
+            "subtitle": "No outono daquele ano, 11 prostitutas foram brutalmente assassinadas. Cinco dessas mortes foram atribuídas a uma figura misteriosa conhecida como Jack, o estripador.",
+            "async": false,
+            "delay": 1000
+        },
+        {
+            "src": "assets/sounds/intro/audio10.mp3",
+            "subtitle": "A polícia ainda não tem pistas deste perigoso assassino, e a população vive assombrada pelo medo.",
+            "async": false,
+            "delay": 3500
+        },
+        {
+            "src": "assets/sounds/intro/audio11.mp3",
+            "subtitle": "No mesmo ano, no Brasil, vive um jovem e carismático jornalista carioca, filho de um oficial inglês e uma enfermeira brasileira.",
+            "async": false,
+            "delay": 700
+        },
+        {
+            "src": "assets/sounds/intro/audio12.mp3",
+            "subtitle": "Seu nome é José Carlos Burton. Você nasceu e foi criado na cidade do Rio de Janeiro.",
+            "async": false,
+            "delay": 900
+        },
+        {
+            "src": "assets/sounds/intro/audio13.mp3",
+            "subtitle": "Aos 21 anos, você recebeu uma carta da Inglaterra. Era de uma firma de advogados e informava que o seu pai havia falecido. Em seu testamento, ele lhe deixou como herança um título de lorde, diversas propriedades e uma grandiosa fortuna.",
+            "async": false,
+            "delay": 700
+        },
+        {
+            "src": "assets/sounds/intro/audio14.mp3",
+            "subtitle": "Vislumbrado pela grande oportunidade, você embarca em um navio a vapor e se muda para Londres, na esperança de viver uma vida suntuosa na capital inglesa.",
+            "async": false,
+            "delay": 1000
+        },
+        {
+            "src": "assets/sounds/intro/audio15.mp3",
+            "subtitle": "As coisas, no entanto, não funcionaram exatamente como você esperava.",
+            "async": false,
+            "delay": 1000
+        },
+        {
+            "src": "assets/sounds/intro/audio16.mp3",
+            "subtitle": "Apesar da riqueza compatível com a alta burguesia londrina, o preconceito pela sua origem latina deixava claro que nunca seria aceito como um membro desse seleto grupo da sociedade.",
+            "async": false,
+            "delay": 1000
+        },
+        {
+            "src": "assets/sounds/intro/audio17.mp3",
+            "subtitle": "Aos poucos você se viu isolado e sem amigos — bem, na verdade havia um amigo: Lorde Williams, um pintor boêmio e bem humorado.",
+            "async": false,
+            "delay": 900
+        },
+        {
+            "src": "assets/sounds/intro/audio18.mp3",
+            "subtitle": "Nos últimos meses, ele demonstrou ser a única pessoa que realmente não se importava com a sua origem, sua cor de pele, seu sotaque e muito menos com seu dinheiro.",
+            "async": false,
+            "delay": 700
+        },
+        {
+            "src": "assets/sounds/intro/audio19.mp3",
+            "subtitle": "Agora, Lorde Williams está em apuros, e pede desesperadamente a sua ajuda.",
+            "async": false,
+            "delay": 5000
+        }
+    ],
+    "background": {
+        "src": "assets/sounds/intro/background.mp3",
+        "loop": true,
+        "delay": 3000,
+        "volume": 0.3
+    },
+    "choices": [
+        {
+            "text": "",
+            "auto": true,
+            "value": {
+                "name": "Capítulo 1: O Pesadelo de Lorde Williams",
+                "narratives": [
+                    {
+                        "src": "assets/sounds/general/silence.mp3",
+                        "subtitle": "",
+                        "async": false,
+                        "delay": 17000
+                    },
+                    {
+                        "src": "assets/sounds/chapter1/nightmare/walk_and_drink.mp3",
+                        "subtitle": "",
+                        "async": false,
+                        "delay": 500
+                    },
+                    {
+                        "src": "assets/sounds/chapter1/nightmare/breath.mp3",
+                        "subtitle": "",
+                        "async": false,
+                        "delay": 700
+                    },
+                    {
+                        "src": "assets/sounds/chapter1/nightmare/audio01.mp3",
+                        "subtitle": "Eu não sei o que faço à noite.",
+                        "async": false,
+                        "delay": 500
+                    },
+                    {
+                        "src": "assets/sounds/chapter1/nightmare/audio02.mp3",
+                        "subtitle": "Eu me sinto adormecer logo que o sol se põe, e de manhã acordo nesta mesma sala, mas vestido em trajes de gala, com os pés sujos de barro.",
+                        "async": false,
+                        "delay": 1000
+                    },
+                    {
+                        "src": "assets/sounds/chapter1/nightmare/audio03.mp3",
+                        "subtitle": "Deve ser algum tipo bizarro de sonambulismo, mas isto está acabando comigo.",
+                        "async": false,
+                        "delay": 500
+                    },
+                    {
+                        "src": "assets/sounds/chapter1/nightmare/audio04.mp3",
+                        "subtitle": "Passo o dia inteiro fraco e sonolento e à noite tenho pesadelos terríveis!",
+                        "async": false,
+                        "delay": 0,
+                        "input": {
+                            "type": "TalkInputType",
+                            "text": "Já consultou um médico?"
+                        }
+                    },
+                    {
+                        "src": "assets/sounds/chapter1/nightmare/audio05.mp3",
+                        "subtitle": "Não quero saber de médicos!",
+                        "async": false,
+                        "delay": 0
+                    },
+                    {
+                        "src": "assets/sounds/chapter1/nightmare/audio06.mp3",
+                        "subtitle": "É por isso que preciso de sua ajuda Burton.",
+                        "async": false,
+                        "delay": 0
+                    },
+                    {
+                        "src": "assets/sounds/chapter1/nightmare/audio07.mp3",
+                        "subtitle": "Eu quero saber aonde vou à noite. É preciso! Por favor! É necessário que você me siga à noite, veja aonde vou e o que faço.",
+                        "async": false,
+                        "delay": 700
+                    },
+                    {
+                        "src": "assets/sounds/chapter1/nightmare/audio08.mp3",
+                        "subtitle": "Porque às vezes algumas coisas me aparecem sonhos… Não gosto nem de pensar nelas.",
+                        "async": false,
+                        "delay": 1000
+                    },
+                    {
+                        "src": "assets/sounds/chapter1/nightmare/audio09.mp3",
+                        "subtitle": "Posso contar com você?",
+                        "async": false,
+                        "delay": 0
+                    }
+                ],
+                "background": {
+                    "src": "assets/sounds/chapter1/nightmare/background.mp3",
+                    "loop": true,
+                    "delay": 0,
+                    "volume": 1
+                },
+                "gameover": false,
+                "choices": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+.transcription-container {
+    flex-grow: 2;
+    width: 100%;
+}
+
+.transcription-container .transcription-text {
+    font-size: 1.9rem;
+    text-align: justify;
+    margin: 3vh 3vw;
+}
+
+.transcription-container .answered {
+    font-style: italic;
+}

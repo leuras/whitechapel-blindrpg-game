@@ -1,0 +1,40 @@
+.advice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 1vw;
+}
+
+.advice-icon {
+    font-size: 10rem;
+    padding-bottom: 2vh;
+}
+
+.advice-message {
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.btn-advice,
+.btn-advice:hover {
+    color: #fff;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    margin-top: 8vh;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    min-width: 50vw;
+    padding: 10px 14px;
+    line-height: 1.6;
+    background-color: rgba(255,255,255, 0);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+    outline: none;
+}
+
+.btn-advice:active {
+    background-color: rgba(255,255,255, 0.1);
+}

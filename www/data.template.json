@@ -1,0 +1,25 @@
+{
+    "name": "chapter-name",
+    "narratives": [
+        {
+            "src": "assets/sounds/...",
+            "subtitle": "",
+            "async": false,
+            "delay": 0,
+            "volume": 1,
+            "vibrate": [1000]
+        }
+    ],
+    "background": {
+        "src": "assets/sounds/...",
+        "loop": true,
+        "delay": 0
+    },
+    "choices": [
+        {
+            "brief": "",
+            "auto": true,
+            "value": {}
+        }
+    ]
+}

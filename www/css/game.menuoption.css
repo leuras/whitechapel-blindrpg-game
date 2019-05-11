@@ -1,0 +1,14 @@
+.menu-option {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    outline: none;
+    text-align: center;
+}
+
+.menu-option-text {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.6;
+    letter-spacing: 4px;
+}

@@ -1,0 +1,207 @@
+{
+    "name": "combat",
+    "narratives": [
+        {
+            "src": "assets/sounds/combat/audio01.mp3",
+            "subtitle": "Quando você saca a sua espada, o guarda salta para a direita e tenta fazer soar um pequeno sino na parede da guarita.",
+            "async": true,
+            "delay": 1000
+        },
+        {
+            "src": "assets/sounds/general/pull_sword_before.webm",
+            "subtitle": "",
+            "async": false,
+            "delay": 0
+        },
+        {
+            "src": "assets/sounds/general/pull_sword_after.webm",
+            "subtitle": "",
+            "async": false,
+            "delay": 6000
+        },
+        {
+            "src": "assets/sounds/combat/audio02.mp3",
+            "subtitle": "Mas ele não consegue alcançá-lo. Imediatamente, ele se volta para lutar com você com sua lança.",
+            "async": false,
+            "delay": 500
+        },
+        {
+            "src": "assets/sounds/combat/audio03.mp3",
+            "subtitle": "Ele salta, e desfere um ataque em direção ao seu peito.",
+            "async": false,
+            "delay": 0
+        }
+    ],
+    "background": {
+        "src": "assets/sounds/general/combat.webm",
+        "loop": true,
+        "delay": 1000
+    },
+    "choices": [
+        {
+            "brief": "Tentar esquivar do golpe",
+            "auto": true,
+            "value": {
+                "name": "evade",
+                "narratives": [
+                    {
+                        "src": "assets/sounds/combat/audio04.mp3",
+                        "subtitle": "Em um movimento rápido, você consegue evitar que a lança atravesse seu corpo.",
+                        "async": true,
+                        "delay": 1000
+                    },
+                    {
+                        "src": "assets/sounds/general/spear_throw.webm",
+                        "subtitle": "",
+                        "async": false,
+                        "delay": 2000
+                    },
+                    {
+                        "src": "assets/sounds/combat/audio05.mp3",
+                        "subtitle": "Ele te observa por alguns segundos, enquanto se coloca novamente em posição de ataque.",
+                        "async": false,
+                        "delay": 100
+                    },
+                    {
+                        "src": "assets/sounds/combat/audio06.mp3",
+                        "subtitle": "Ele desfere uma sequencia de golpes contra você, que com extrema habilidade, consegue defender com sua espada.",
+                        "async": true,
+                        "delay": 500
+                    },
+                    {
+                        "src": "assets/sounds/general/warrior_attack_voice.webm",
+                        "subtitle": "",
+                        "async": false,
+                        "delay": 100
+                    },
+                    {
+                        "src": "assets/sounds/general/sword_clash.webm",
+                        "subtitle": "",
+                        "async": true,
+                        "delay": 1500,
+                        "vibrate": [300]
+                    },
+                    {
+                        "src": "assets/sounds/general/sword_clash.webm",
+                        "subtitle": "",
+                        "async": true,
+                        "delay": 1000,
+                        "vibrate": [300]
+                    },
+                    {
+                        "src": "assets/sounds/general/sword_clash.webm",
+                        "subtitle": "",
+                        "async": false,
+                        "delay": 300,
+                        "vibrate": [300]
+                    },
+                    {
+                        "src": "assets/sounds/combat/audio07.mp3",
+                        "subtitle": "Após as tentativas fracassadas do guarda, você usa sua expertise, e consegue desferir um contragolpe mortal.",
+                        "async": false,
+                        "delay": 100
+                    },
+                    {
+                        "src": "assets/sounds/general/attack_sword.webm",
+                        "subtitle": "",
+                        "async": false,
+                        "delay": 500
+                    },
+                    {
+                        "src": "assets/sounds/combat/audio08.mp3",
+                        "subtitle": "O seu golpe, o atingiu na altura do peito. O corpo desfalecido do enorme guarda, cai inerte no chão.",
+                        "async": false,
+                        "delay": 2000
+                    },
+                    {
+                        "src": "assets/sounds/system/completed_notification.mp3",
+                        "subtitle": "",
+                        "async": false,
+                        "delay": 500
+                    }
+                ],
+                "background": {
+                    "src": "assets/sounds/general/combat.webm",
+                    "loop": true,
+                    "delay": 1000
+                }
+            }
+        },
+        {
+            "brief": "Tentar defender com a espada",
+            "auto": true,
+            "value": {
+                "name": "defende",
+                "narratives": [
+                    {
+                        "src": "assets/sounds/defense/audio01.mp3",
+                        "subtitle": "Você tenta usar sua espada, para bloquear o ataque do guarda. Mas você não teve tempo suficiente para desviar o golpe por completo.",
+                        "async": false,
+                        "delay": 100
+                    },
+                    {
+                        "src": "assets/sounds/defense/audio02.mp3",
+                        "subtitle": "O golpe, atinge o seu ombro esquerdo.",
+                        "async": false,
+                        "delay": 100
+                    },
+                    {
+                        "src": "assets/sounds/defense/audio03.mp3",
+                        "subtitle": "Ele olha para o ferimento aberto em seu ombro e sorri.",
+                        "async": true,
+                        "delay": 1000
+                    },
+                    {
+                        "src": "assets/sounds/general/soldier_laugh.webm",
+                        "subtitle": "",
+                        "async": false,
+                        "delay": 300
+                    },
+                    {
+                        "src": "assets/sounds/general/warrior_attack_voice.webm",
+                        "subtitle": "",
+                        "async": true,
+                        "delay": 500
+                    },
+                    {
+                        "src": "assets/sounds/defense/audio04.mp3",
+                        "subtitle": "Você corre em direção ao seu oponente, e tenta atingí-lo com sua espada.",
+                        "async": false,
+                        "delay": 1000
+                    },
+                    {
+                        "src": "assets/sounds/defense/audio05.mp3",
+                        "subtitle": "Mas o ferimento em seu ombro, te deixa lento e previsível. O guarda antecipa seu movimento, e usa a lança para derrubá-lo no chão.",
+                        "async": false,
+                        "delay": 500
+                    },
+                    {
+                        "src": "assets/sounds/general/body_fall.webm",
+                        "subtitle": "",
+                        "async": false,
+                        "delay": 100,
+                        "vibrate": [300]
+                    },
+                    {
+                        "src": "assets/sounds/defense/audio06.mp3",
+                        "subtitle": "Você cai no chão, sua espada é jogada para fora de seu alcance. Com o olhar contra o sol, você percebe que este realmente é seu fim.",
+                        "async": false,
+                        "delay": 1000
+                    },
+                    {
+                        "src": "assets/sounds/defense/audio07.mp3",
+                        "subtitle": "Sem piedade, o guarda crava a lança em seu peito, sem chances de defesa. Sua jornada então chega ao fim.",
+                        "async": false,
+                        "delay": 1000
+                    }
+                ],
+                "background": {
+                    "src": "assets/sounds/general/combat.webm",
+                    "loop": true,
+                    "delay": 3000
+                },
+                "gameover": true
+            }
+        }
+    ]
+}

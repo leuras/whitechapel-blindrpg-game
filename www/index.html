@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width" />
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+        <!-- Good default declaration:
+        * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+        * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+        * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+            * Enable inline JS: add 'unsafe-inline' to default-src
+            * Enable eval(): add 'unsafe-eval' to default-src
+        * Create your own at http://cspisawesome.com
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: 'unsafe-eval' 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src * data:" />
+        <link rel="stylesheet" href="assets/css/vendor.css">
+        <link rel="stylesheet" href="assets/css/app.min.css">
+    </head>
+    <body>
+        <div id="app">
+            <transition name="fade" mode="out-in">
+                <router-view></router-view>
+            </transition>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="assets/js/manifest.js"></script>
+        <script type="text/javascript" src="assets/js/vendor.js"></script>
+        <script type="text/javascript" src="assets/js/app.min.js"></script>
+    </body>
+</html>

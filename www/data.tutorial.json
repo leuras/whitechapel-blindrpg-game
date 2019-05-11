@@ -1,0 +1,96 @@
+{
+    "name": "tutorial",
+    "narratives": [
+        {
+            "src": "assets/sounds/tutorial/audio01.mp3",
+            "subtitle": "Olá, seja bem-vindo ao tutorial.",
+            "async": false,
+            "delay": 1000
+        },
+        {
+            "src": "assets/sounds/tutorial/audio02.mp3",
+            "subtitle": "Este jogo resgata a experiência clássica de uma aventura solo de RPG, onde o jogador participa ativamente da história narrada.",
+            "async": false,
+            "delay": 500
+        },
+        {
+            "src": "assets/sounds/tutorial/audio03.mp3",
+            "subtitle": "Suas escolhas irão definir o rumo de sua aventura.",
+            "async": false,
+            "delay": 500
+        },
+        {
+            "src": "assets/sounds/tutorial/audio04.mp3",
+            "subtitle": "A interface do jogo é composta por 3 partes principais: transcrições das cenas, botões de decisão e barra de menu.",
+            "async": false,
+            "delay": 500
+        },
+        {
+            "src": "assets/sounds/tutorial/audio05.mp3",
+            "subtitle": "A barra de menu, fica na parte inferior da tela e contém dois botões: o botão de pausa e o botão de voltar ao menu principal.",
+            "async": false,
+            "delay": 500
+        },
+        {
+            "src": "assets/sounds/tutorial/audio06.mp3",
+            "subtitle": "Mas atenção, o botão de voltar ao menu principal só estará disponível no modo pausa.",
+            "async": false,
+            "delay": 500
+        },
+        {
+            "src": "assets/sounds/tutorial/audio07.mp3",
+            "subtitle": "Na parte superior da tela, existe uma caixa que contém as últimas transcrições das cenas. No modo pausa, você pode utilizar o leitor de tela para ouvi-las.",
+            "async": false,
+            "delay": 500
+        },
+        {
+            "src": "assets/sounds/tutorial/audio08.mp3",
+            "subtitle": "Agora, sempre que ouvir este som:",
+            "async": false,
+            "delay": 500
+        },
+        {
+            "src": "assets/sounds/system/choose_notification.mp3",
+            "subtitle": "",
+            "async": false,
+            "delay": 500
+        },
+        {
+            "src": "assets/sounds/tutorial/audio09.mp3",
+            "subtitle": "Significa que você precisa tomar uma decisão. Serão exibidos botões com suas opções, logo abaixo da caixa de transcrições.",
+            "async": false,
+            "delay": 500
+        },
+        {
+            "src": "assets/sounds/tutorial/audio10.mp3",
+            "subtitle": "Então, você está pronto para esta nova aventura?",
+            "async": false,
+            "delay": 500
+        }
+    ],
+    "background": {
+        "src": "assets/sounds/tutorial/tutorial.webm",
+        "loop": true,
+        "delay": 3000
+    },
+    "choices": [{
+        "brief": "Sim, Perfeitamente!",
+        "auto": false,
+        "value": {
+            "name": "fim",
+            "narratives": [
+                {
+                    "src": "assets/sounds/tutorial/audio11.mp3",
+                    "subtitle": "Tudo certo então. Tenha uma ótima aventura! Divirta-se!",
+                    "async": false,
+                    "delay": 500
+                }
+            ],
+            "background": {
+                "src": "assets/sounds/tutorial/tutorial.webm",
+                "loop": true,
+                "delay": 3000
+            }
+        }
+    }]
+}
