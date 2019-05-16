@@ -1,5 +1,4 @@
 <template lang="html">
-    <!-- begin-of: menu -->
     <game-menu :title="menu.title">
         <game-menu-option v-if="hasSaveGame" :text="menu.continue"
             @on-click="menuContinueOnClick">
@@ -21,7 +20,6 @@
             @on-click="menuQuitOnClick">
         </game-menu-option>
     </game-menu>
-    <!-- end-of: menu -->
 </template>
 
 <script>

@@ -4,7 +4,6 @@
             {{ text }}
         </span>
     </li>
-    </div>
 </template>
 
 <script>
