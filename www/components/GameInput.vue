@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <section class="input-container">
         <div v-if="isDecision()" v-for="choice in source">
             <button type="button" role="button" class="btn-input"

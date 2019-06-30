@@ -35,10 +35,10 @@ const Application = {
     setupVue: function() {
         // Routes
         const routes = [
-            { name: 'advice', path: '/', component: require('../components/GameAdvice.vue') },
-            { name: 'main', path: '/main', component: require('../components/GameMain.vue') },
-            { name: 'credits', path: '/credits', component: require('../components/GameCredits.vue') },
-            { name: 'scene', path: '/scene', component: require('../components/GameScene.vue'), props: true }
+            { name: 'advice', path: '/', component: require('../components/GameAdvice.vue').default },
+            { name: 'main', path: '/main', component: require('../components/GameMain.vue').default },
+            { name: 'credits', path: '/credits', component: require('../components/GameCredits.vue').default },
+            { name: 'scene', path: '/scene', component: require('../components/GameScene.vue').default, props: true }
         ]
 
         const router = new VueRouter({

@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <game-menu :title="menu.title">
         <game-menu-option v-if="hasSaveGame" :text="menu.continue"
             @on-click="menuContinueOnClick">

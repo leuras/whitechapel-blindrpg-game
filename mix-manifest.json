@@ -1,7 +1,7 @@
 {
     "/www/assets/js/app.min.js": "/www/assets/js/app.min.js",
-    "/www/assets/js/vendor.js": "/www/assets/js/vendor.js",
     "/www/assets/js/manifest.js": "/www/assets/js/manifest.js",
+    "/www/assets/js/vendor.js": "/www/assets/js/vendor.js",
     "/www/assets/css/vendor.css": "/www/assets/css/vendor.css",
     "/www/assets/css/app.min.css": "/www/assets/css/app.min.css",
     "/www/assets/webfonts/fa-solid-900.eot": "/www/assets/webfonts/fa-solid-900.eot",

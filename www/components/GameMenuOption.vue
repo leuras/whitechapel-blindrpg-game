@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <li role="menuitem" tabindex="0" :aria-label="text" class="menu-option" @click="menuOptionOnClick">
         <span class="menu-option-text">
             {{ text }}

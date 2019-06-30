@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <section class="playmenu-container">
         <nav class="playmenu-bar">
             <button class="btn-playmenu" v-if="!paused" :aria-label="pause"

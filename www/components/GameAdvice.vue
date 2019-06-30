@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <section class="advice-container">
         <span class="advice-icon">
             <i class="fas fa-headphones-alt"></i>

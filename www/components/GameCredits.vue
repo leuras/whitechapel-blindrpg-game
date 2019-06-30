@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <section class="credits-container">
         <h1>{{ title }}</h1>
         <section class="credits-group" v-for="work in credits">

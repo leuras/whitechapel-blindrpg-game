@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <main class="menu-container" role="main">
         <nav role="navigation">
             <ul role="menu">

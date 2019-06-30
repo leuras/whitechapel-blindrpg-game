@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <main class="scene-container">
         <div class="scene-title">
             <i class="fas fa-gem scene-title-icon"></i>

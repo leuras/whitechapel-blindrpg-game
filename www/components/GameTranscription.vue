@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <section :aria-label="description" class="transcription-container">
         <p v-for="item in transcriptions" :aria-hidden="readonly"
                 :class="item.answered ? 'transcription-text answered': 'transcription-text'">
